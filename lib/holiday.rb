@@ -23,9 +23,7 @@ end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
   holiday_hash.each do |season, holiday|
-  #at this level, "person" is Jon Snow or Freddy Mercury and "data" is a hash of
-  #key/value pairs to iterate over the "data" hash, we can use the following line:
- 
+    if :season = 
   holiday.each do |attribute, value|
     puts "#{attribute}: #{value}"
   end
