@@ -28,10 +28,9 @@ def add_supply_to_winter_holidays(holiday_hash, supply)
         data << supply
       end
     end
-  #end
+  end
 return holiday_hash
 end
-
 end
 
 
