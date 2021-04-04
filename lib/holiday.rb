@@ -22,11 +22,11 @@ def second_supply_for_fourth_of_july(holiday_hash)
 end
 
 def add_supply_to_winter_holidays(holiday_hash, supply)
-  holiday_hash.each do |holiday, supply|
+  holiday_hash.each do |season, holiday|
   #at this level, "person" is Jon Snow or Freddy Mercury and "data" is a hash of
   #key/value pairs to iterate over the "data" hash, we can use the following line:
  
-  supply.each do |attribute, value|
+  holiday.each do |attribute, value|
     puts "#{attribute}: #{value}"
   end
 end
