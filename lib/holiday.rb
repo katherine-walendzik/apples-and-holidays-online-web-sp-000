@@ -39,6 +39,7 @@ def add_supply_to_memorial_day(holiday_hash, supply)
       holiday.each do |attribute, data|
         if attribute == :memorial_day
         data << supply
+        end
       end
     end
   end
